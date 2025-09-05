@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/*
+font-family: 'Abril Fatface', serif;
+font-family: 'Cinzel', serif;
+font-family: 'Kanit', sans-serif;
+*/
+
+img,
+ion-icon {
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+
+}
+
+em {
+    font-style: normal;
+}
+
+
+/*------------------------------=PART 1=--------------------------------*/
+
+.button-div {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-div p {
+    background-color: #386EF3;
+    width: 160px;
+    height: 50px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.3s;
+}
+
+.button-div p:hover {
+    background-color: #2161FF;
+    scale: 1.1;
+}
+
+.button-div p:active {
+    background-color: transparent;
+    color: #2161FF !important;
+    box-shadow: inset 0px 0px 0px 3px #2161FF;
+    scale: 1.5;
+    transition: 0.07s;
+}
